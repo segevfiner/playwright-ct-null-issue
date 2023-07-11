@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig.app.json",
+    "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "playwright/index.ts"],
+    "exclude": [],
+    "compilerOptions": {
+      "composite": true,
+      "lib": ["DOM", "DOM.Iterable","ES2022"],
+      "types": ["node"]
+    }
+  }
